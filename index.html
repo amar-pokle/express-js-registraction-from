@@ -1,0 +1,40 @@
+<html>
+   <head>
+    <title>Express Js Routing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </head> 
+ <body class="container ">
+      <h1 class="text-primary">Redirects to Students Registraction  Form</h1>
+        <form action="/submit-student-data" method="post">    
+            <table class="table-danger ml-5" border="1"  >    
+            <tr><td>Enter First Name:</td><td><input type="text" name="firstname"/><td></tr>    
+            <tr><td>Enter Last Name:</td><td><input type="text" name="lastname"/><td></tr>
+            <tr><td>Enter Age:</td><td><input type="text" name="age"/><td></tr>       
+            <tr><td>Enter Mobile Number :</td><td><input type="text" name="number"/></td></tr>    
+            <tr><td>Sex:</td><td>  
+            <input type="radio" name="male" value="male"> Male  
+            <input type="radio" name="female" value="female">Female  
+            </td></tr>
+            <tr><td>Enter Pin :</td><td><input type="text" name="pin"/></td></tr>    
+            <tr><td>Address :</td><td>  
+            <textarea rows="5" cols="40" name="address" placeholder="Write about yourself">  
+            </textarea>  
+            </td></tr>
+            <tr><td>Qualification:</td><td>  
+            <input type="checkbox" name="tenth" value="10th">10th 
+            <input type="checkbox" name="twelve" value="12th">12th  
+            </td></tr><br>
+
+            <tr><td colspan="2" class="text-center p-3"><input type="Submit" value="Submit"/></td></tr>    
+            </table>    
+            </form>   
+          
+ </body>                                   
+   
+    
+</html>
